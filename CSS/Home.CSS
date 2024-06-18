@@ -103,7 +103,7 @@
     height: 100%;
     opacity: 0.9;
     margin-bottom: 100px;
-    background-image: url(/Image/TV/LG-logo.png);
+    background-image: url(/Image/TV/Tv-slid.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -272,7 +272,7 @@
 .accessory {
     position: relative;
     height: 300px;
-    margin-right: 20px ;
+    margin-right: 20px;
     border-radius: 10px;
     padding: 10px;
     padding-bottom: 15px;
@@ -482,7 +482,7 @@
     box-shadow: 0 0 2px 0.5px;
 }
 
-.title-Group{
+.title-Group {
     margin-top: 20px;
 }
 
@@ -692,94 +692,96 @@
 
 
 @media screen and (max-width:374px) {
-.Tvbox-BestSeller a:last-child{
-    display: none;
+    .Tvbox-BestSeller a:last-child {
+        display: none;
+    }
+
+    .accessorybox-BestSeller a:last-child {
+        display: none;
+    }
+
+    .Discountbox-Home a:nth-child(2) {
+        display: none;
+    }
+
+    .sectiontop-accesorybox a:nth-child(2) {
+        display: none;
+    }
+
+    .sectionmiddel-accesorybox a:nth-child(2) {
+        display: none;
+    }
+
+    .Group-sectiontop {
+        margin-right: 5px !important;
+    }
+
+    .Group-sectionbottom {
+        margin-right: 5px !important;
+    }
+
+    .Support {
+        margin-right: 0px;
+    }
+
+    .client-services {
+        margin-right: 15px;
+        width: 74px;
+    }
+
+    .Guide {
+        margin-right: 10px;
+    }
+
+    .call-us {
+        margin-right: 10px;
+    }
+
+    .GotopHome {
+        width: 20px !important;
+        height: 20px !important;
+        bottom: 20px !important;
+        right: 20px !important;
+    }
+
+    .ai-chevron-up {
+        font-size: 12px !important;
+    }
+
 }
 
-.accessorybox-BestSeller a:last-child{
-    display: none;
-}
-
-.Discountbox-Home a:nth-child(2){
-    display: none;
-}
-
-.sectiontop-accesorybox a:nth-child(2){
-    display: none;
-}
-.sectionmiddel-accesorybox a:nth-child(2){
-    display: none;
-}
-
-.Group-sectiontop{
-    margin-right: 5px !important;
-}
-
-.Group-sectionbottom{
-    margin-right: 5px !important;
-}
-
-.Support {
-    margin-right: 0px;
-}
-
-.client-services {
-    margin-right: 15px;
-    width: 74px;
-}
-.Guide {
-    margin-right: 10px;
-}
-
-.call-us {
-    margin-right: 10px;
-}
-
-.GotopHome {
-    width: 20px !important;
-    height: 20px !important;
-    bottom: 20px !important;
-    right: 20px !important;
-}
-
-.ai-chevron-up {
-    font-size: 12px !important;
-}
-
-}
-
-@media screen  and (max-width:730px) {
+@media screen and (max-width:730px) {
     .PreloaderHome img {
-        width: 300px ;
-        height: 300px ;
+        width: 300px;
+        height: 300px;
     }
 
     .Slide-box {
-        height: 350px ;
+        height: 350px;
     }
 
     .Articels-Slide {
-        top: 60px ;
+        top: 60px;
     }
 
     .title-articels {
         padding: 10px;
-        font-size: 12px ;
+        font-size: 12px;
     }
 
     .button-articels {
-        margin-top: 30px ;
+        margin-top: 30px;
     }
 
     .button-articels button {
-        width: 100px ;
+        width: 100px;
         padding: 10px;
-        font-size: 13px ;
+        font-size: 13px;
         border-radius: 10px;
     }
 
     .text-articels {
-        font-size: 13px ;
+        font-size: 13px;
         padding: 5px;
     }
 
@@ -790,25 +792,25 @@
 
     .Tv {
         width: 105px;
-        margin-right: 9px ;
-        height: 170px ;
+        margin-right: 9px;
+        height: 170px;
         margin-top: 10px;
         padding: 5px;
     }
 
     .image-Tvbox img {
-        width: 90px ;
-        height: 80px ;
+        width: 90px;
+        height: 80px;
     }
 
     .title-Tvbox {
-        margin-top: 5px ;
-        width: 102px ;
-        font-size: 9px ;
+        margin-top: 5px;
+        width: 102px;
+        font-size: 9px;
     }
 
     .accessory {
-        margin-right: 9px ;
+        margin-right: 9px;
         width: 105px;
         height: 170px;
         margin-bottom: 10px;
@@ -816,14 +818,14 @@
     }
 
     .image-accessorybox img {
-        width: 90px ;
-        height: 80px ;
+        width: 90px;
+        height: 80px;
     }
 
     .title-accessorybox {
-        margin-top: 5px ;
-        width: 102px ;
-        font-size: 9px ;
+        margin-top: 5px;
+        width: 102px;
+        font-size: 9px;
     }
 
     .articel1-sectiontop,
@@ -832,17 +834,17 @@
     }
 
     .middel-Home {
-        margin-top: 50px ;
+        margin-top: 50px;
     }
 
     .Howtobuy-Home {
         padding: 10px;
-        font-size: 11px ;
+        font-size: 11px;
     }
 
     .Discounts-Home {
-        margin-top: 50px ;
-        padding: 0px ;
+        margin-top: 50px;
+        padding: 0px;
     }
 
     .Discountbox-Home {
@@ -859,38 +861,38 @@
     }
 
     .Discount {
-        height: 180px ;
+        height: 180px;
     }
 
     .image-D {
-        width: 100px ;
-        height: 90px ;
+        width: 100px;
+        height: 90px;
     }
 
     .image-D img {
-        width: 80px ;
+        width: 80px;
     }
 
     .DiscountAc img {
-        width: 55px ;
+        width: 55px;
     }
 
     .text-D {
         padding: 0 2px;
-        bottom: 65px ;
+        bottom: 65px;
     }
 
     .title-DiscountTv {
-        bottom: 51px ;
+        bottom: 51px;
     }
 
     .accesorybox-sectionmiddle {
-        margin-top: 50px ;
+        margin-top: 50px;
     }
 
     .accesorybox-sectionmiddle .accessory {
-        height: 170px ;
-        margin-right: 10px ;
+        height: 170px;
+        margin-right: 10px;
     }
 
     .image-accessorybox {
@@ -900,14 +902,14 @@
     .sectiontop-accesorybox {
         flex-wrap: wrap;
         margin-top: 0px;
-        padding: 10px ;
-        padding-bottom: 0 ;
+        padding: 10px;
+        padding-bottom: 0;
     }
 
     .sectionmiddel-accesorybox {
         flex-wrap: wrap;
-        padding: 10px ;
-        padding-top: 2 ;
+        padding: 10px;
+        padding-top: 2;
     }
 
     .sectiontop-accesorybox a:last-child {
@@ -922,11 +924,11 @@
     .articel2-sectionmiddel,
     .articel3-sectionmiddel,
     .articel4-sectionmiddel {
-        width: 100px ;
-        height: 100px ;
+        width: 100px;
+        height: 100px;
         padding: 5px;
-        font-size: 9px ;
-        margin-right: 8px ;
+        font-size: 9px;
+        margin-right: 8px;
     }
 
     .articel-sectionmiddel svg {
@@ -934,38 +936,38 @@
     }
 
     .Grouping-Home {
-        margin-top: 50px ;
+        margin-top: 50px;
     }
 
 
     .title-Grouping {
-        font-size: 12px ;
+        font-size: 12px;
         margin-bottom: 0px;
     }
 
     .sectiontop-Grouping {
-        padding: 10px 0 ;
+        padding: 10px 0;
     }
 
     .Group-sectiontop {
-        width: 150px ;
-        height: 150px ;
+        width: 150px;
+        height: 150px;
         margin-right: 25px
     }
 
     .image-Gruop img {
-        width: 130px ;
-        height: 110px ;
+        width: 130px;
+        height: 110px;
     }
 
     .sectionbottom-Grouping {
-        padding: 10px 0 ;
+        padding: 10px 0;
     }
 
     .Group-sectionbottom {
-        width: 150px ;
-        height: 150px ;
-        margin-right: 25px ;
+        width: 150px;
+        height: 150px;
+        margin-right: 25px;
     }
 
     .image-Gruop-bottom img {
@@ -983,7 +985,7 @@
     }
 
     .title-sectionbottom {
-        font-size: 12px ;
+        font-size: 12px;
     }
 
     .title-brandspeaker {
@@ -991,12 +993,12 @@
     }
 
     .brand-speaker {
-        margin-top: 0 ;
+        margin-top: 0;
         flex-wrap: wrap;
     }
 
     .buttonright-speakerHome {
-        display: none ;
+        display: none;
     }
 
     .brandname-speaker {
@@ -1005,45 +1007,45 @@
     }
 
     .image-speaker {
-        width: 80px ;
-        height: 80px ;
-        padding: 0px ;
+        width: 80px;
+        height: 80px;
+        padding: 0px;
     }
 
     .image-speakerT {
-        width: 80px ;
-        height: 80px ;
-        padding: 0px ;
+        width: 80px;
+        height: 80px;
+        padding: 0px;
     }
 
     .image-speaker img {
-        width: 80px ;
-        height: 80px ;
-        margin-top: 0px ;
+        width: 80px;
+        height: 80px;
+        margin-top: 0px;
     }
 
     .image-speakerT img {
-        width: 80px ;
-        height: 80px ;
-        margin-top: 0px ;
+        width: 80px;
+        height: 80px;
+        margin-top: 0px;
     }
 
     .buttonleft-speakerHome {
-        display: none ;
+        display: none;
     }
 
 
     .title-brandTV {
-        margin-top: 30px ;
+        margin-top: 30px;
     }
 
     .brand-TV {
-        margin-top: 0 ;
+        margin-top: 0;
         flex-wrap: wrap;
     }
 
     .buttonright-TvHome {
-        display: none ;
+        display: none;
 
     }
 
@@ -1053,38 +1055,38 @@
     }
 
     .image-TV {
-        width: 80px ;
-        height: 80px ;
-        padding: 0px ;
+        width: 80px;
+        height: 80px;
+        padding: 0px;
     }
 
     .image-TVX {
-        width: 80px ;
-        height: 80px ;
-        padding: 0px ;
+        width: 80px;
+        height: 80px;
+        padding: 0px;
     }
 
     .image-TV img {
-        width: 80px ;
-        height: 80px ;
-        margin-top: 0px ;
+        width: 80px;
+        height: 80px;
+        margin-top: 0px;
     }
 
     .image-TVX img {
-        width: 80px ;
-        height: 45px ;
-        margin-top: 15px ;
+        width: 80px;
+        height: 45px;
+        margin-top: 15px;
     }
 
     .buttonleft-TvHome {
-        display: none ;
+        display: none;
     }
 
     .GotopHome {
-        width: 30px ;
-        height: 30px ;
-        bottom: 10px ;
-        right: 10px ;
+        width: 30px;
+        height: 30px;
+        bottom: 10px;
+        right: 10px;
     }
 
     .ai-chevron-up {
@@ -1095,36 +1097,36 @@
 
 @media screen and (min-width: 731px) and (max-width: 1023px) {
     .PreloaderHome img {
-        width: 300px ;
-        height: 300px ;
+        width: 300px;
+        height: 300px;
     }
 
     .Slide-box {
-        height: 350px ;
+        height: 350px;
     }
 
     .Articels-Slide {
-        top: 60px ;
+        top: 60px;
     }
 
     .title-articels {
         padding: 10px;
-        font-size: 18px ;
+        font-size: 18px;
     }
 
     .button-articels {
-        margin-top: 30px ;
+        margin-top: 30px;
     }
 
     .button-articels button {
-        width: 120px ;
+        width: 120px;
         padding: 10px;
-        font-size: 15px ;
+        font-size: 15px;
         border-radius: 10px;
     }
 
     .text-articels {
-        font-size: 18px ;
+        font-size: 18px;
         padding: 5px;
     }
 
@@ -1134,25 +1136,25 @@
 
     .Tv {
         width: 140px;
-        margin-right: 9px ;
-        height: 210px ;
+        margin-right: 9px;
+        height: 210px;
         margin-top: 10px;
         padding: 5px;
     }
 
     .image-Tvbox img {
-        width: 120px ;
-        height: 110px ;
+        width: 120px;
+        height: 110px;
     }
 
     .title-Tvbox {
-        margin-top: 5px ;
-        width: 130px ;
-        font-size: 11px ;
+        margin-top: 5px;
+        width: 130px;
+        font-size: 11px;
     }
 
     .accessory {
-        margin-right: 9px ;
+        margin-right: 9px;
         width: 140px;
         height: 210px;
         margin-bottom: 10px;
@@ -1160,14 +1162,14 @@
     }
 
     .image-accessorybox img {
-        width: 120px ;
-        height: 110px ;
+        width: 120px;
+        height: 110px;
     }
 
     .title-accessorybox {
-        margin-top: 5px ;
-        width: 130px ;
-        font-size: 11px ;
+        margin-top: 5px;
+        width: 130px;
+        font-size: 11px;
     }
 
     .articel1-sectiontop,
@@ -1183,17 +1185,17 @@
     }
 
     .middel-Home {
-        margin-top: 80px ;
+        margin-top: 80px;
     }
 
     .Howtobuy-Home {
         padding: 10px;
-        font-size: 14px ;
+        font-size: 14px;
     }
 
     .Discounts-Home {
-        margin-top: 80px ;
-        padding: 0px ;
+        margin-top: 80px;
+        padding: 0px;
     }
 
     .Discountbox-Home {
@@ -1206,38 +1208,38 @@
     }
 
     .Discount {
-        height: 210px ;
+        height: 210px;
     }
 
     .image-D {
-        width: 120px ;
-        height: 110px ;
+        width: 120px;
+        height: 110px;
     }
 
     .image-D img {
-        width: 100px ;
+        width: 100px;
     }
 
     .DiscountAc img {
-        width: 75px ;
+        width: 75px;
     }
 
     .text-D {
         padding: 0 2px;
-        bottom: 65px ;
+        bottom: 65px;
     }
 
     .title-DiscountTv {
-        bottom: 51px ;
+        bottom: 51px;
     }
 
     .accesorybox-sectionmiddle {
-        margin-top: 80px ;
+        margin-top: 80px;
     }
 
     .accesorybox-sectionmiddle .accessory {
-        height: 210px ;
-        margin-right: 10px ;
+        height: 210px;
+        margin-right: 10px;
     }
 
     .image-accessorybox {
@@ -1246,14 +1248,14 @@
 
     .sectiontop-accesorybox {
         flex-wrap: wrap;
-        padding: 10px ;
-        padding-bottom: 0 ;
+        padding: 10px;
+        padding-bottom: 0;
     }
 
     .sectionmiddel-accesorybox {
         flex-wrap: wrap;
-        padding: 10px ;
-        padding-top: 2 ;
+        padding: 10px;
+        padding-top: 2;
     }
 
     .articel-sectionmiddel {
@@ -1264,11 +1266,11 @@
     .articel2-sectionmiddel,
     .articel3-sectionmiddel,
     .articel4-sectionmiddel {
-        width: 130px ;
-        height: 130px ;
+        width: 130px;
+        height: 130px;
         padding: 5px;
-        font-size: 12px ;
-        margin-right: 13px ;
+        font-size: 12px;
+        margin-right: 13px;
     }
 
     .articel-sectionmiddel svg {
@@ -1276,7 +1278,7 @@
     }
 
     .Grouping-Home {
-        margin-top: 80px ;
+        margin-top: 80px;
     }
 
 
@@ -1285,49 +1287,49 @@
     }
 
     .sectiontop-Grouping {
-        padding: 10px 0 ;
+        padding: 10px 0;
         justify-content: center;
     }
 
     .Group-sectiontop {
-        width: 270px ;
-        height: 270px ;
-        margin-right: 25px ;
+        width: 270px;
+        height: 270px;
+        margin-right: 25px;
     }
 
     .image-Gruop img {
-        width: 250px ;
-        height: 220px ;
+        width: 250px;
+        height: 220px;
     }
 
     .sectionbottom-Grouping {
-        padding: 10px 0 ;
+        padding: 10px 0;
         justify-content: center;
     }
 
     .Group-sectionbottom {
-        width: 270px ;
-        height: 270px ;
-        margin-right: 25px ;
+        width: 270px;
+        height: 270px;
+        margin-right: 25px;
     }
 
     .image-Gruop-bottom img {
-        width: 250px ;
-        height: 220px ;
+        width: 250px;
+        height: 220px;
     }
 
     .title-Group {
         font-size: 15px;
         margin-top: 8px;
-    
+
     }
 
     .bottom-Home {
-        margin-top: 80px ;
+        margin-top: 80px;
     }
 
     .title-sectionbottom {
-        font-size: 16px ;
+        font-size: 16px;
     }
 
     .title-brandspeaker {
@@ -1335,12 +1337,12 @@
     }
 
     .brand-speaker {
-        margin-top: 0 ;
+        margin-top: 0;
         flex-wrap: wrap;
     }
 
     .buttonright-speakerHome {
-        display: none ;
+        display: none;
     }
 
     .brandname-speaker {
@@ -1349,45 +1351,45 @@
     }
 
     .image-speaker {
-        width: 120px ;
-        height: 120px ;
-        padding: 0px ;
+        width: 120px;
+        height: 120px;
+        padding: 0px;
     }
 
     .image-speakerT {
-        width: 120px ;
-        height: 120px ;
-        padding: 0px ;
+        width: 120px;
+        height: 120px;
+        padding: 0px;
     }
 
     .image-speaker img {
-        width: 120px ;
-        height: 120px ;
-        margin-top: 0px ;
+        width: 120px;
+        height: 120px;
+        margin-top: 0px;
     }
 
     .image-speakerT img {
-        width: 120px ;
-        height: 120px ;
-        margin-top: 0px ;
+        width: 120px;
+        height: 120px;
+        margin-top: 0px;
     }
 
     .buttonleft-speakerHome {
-        display: none ;
+        display: none;
     }
 
 
     .title-brandTV {
-        margin-top: 30px ;
+        margin-top: 30px;
     }
 
     .brand-TV {
-        margin-top: 0 ;
+        margin-top: 0;
         flex-wrap: wrap;
     }
 
     .buttonright-TvHome {
-        display: none ;
+        display: none;
 
     }
 
@@ -1397,38 +1399,38 @@
     }
 
     .image-TV {
-        width: 120px ;
-        height: 120px ;
-        padding: 0px ;
+        width: 120px;
+        height: 120px;
+        padding: 0px;
     }
 
     .image-TVX {
-        width: 120px ;
-        height: 120px ;
-        padding: 0px ;
+        width: 120px;
+        height: 120px;
+        padding: 0px;
     }
 
     .image-TV img {
-        width: 120px ;
-        height: 120px ;
-        margin-top: 0px ;
+        width: 120px;
+        height: 120px;
+        margin-top: 0px;
     }
 
     .image-TVX img {
-        width: 120px ;
-        height: 65px ;
-        margin-top: 25px ;
+        width: 120px;
+        height: 65px;
+        margin-top: 25px;
     }
 
     .buttonleft-TvHome {
-        display: none ;
+        display: none;
     }
 
     .GotopHome {
-        width: 40px ;
-        height: 40px ;
-        bottom: 10px ;
-        right: 10px ;
+        width: 40px;
+        height: 40px;
+        bottom: 10px;
+        right: 10px;
     }
 
     .ai-chevron-up {
@@ -1475,7 +1477,7 @@
         height: 200px;
     }
 
-    .text-D{
+    .text-D {
         bottom: 85px;
     }
 
@@ -1485,7 +1487,7 @@
 
     .brandname-speaker {
         width: 230px;
-            }
+    }
 
     .buttonright-speakerHome {
         width: 50px;
@@ -1552,12 +1554,12 @@
         margin-top: 60px;
     }
 
-       .buttonleft-TvHome {
+    .buttonleft-TvHome {
         width: 50px;
         height: 50px;
-    } 
+    }
 
-    .GotopHome{
+    .GotopHome {
         width: 50px;
         height: 50px;
     }

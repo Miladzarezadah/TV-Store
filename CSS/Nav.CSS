@@ -36,12 +36,12 @@ a {
 
 @font-face {
     font-family: BYekan;
-    src: url(/font/BYekan+.ttf);
+    src: url(./font/BYekan+.ttf);
 }
 
 @font-face {
     font-family: BYekanBold;
-    src: url(/font/BYekan+\ Bold.ttf);
+    src: url(./font/BYekan+\ Bold.ttf);
 }
 
 
