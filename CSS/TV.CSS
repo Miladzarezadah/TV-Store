@@ -512,8 +512,8 @@
   @media screen and (min-width:731px) and (max-width:1023px) {
       .Productbox {
           margin-right: 10px;
-          width: 220px;
-          height: 220px;
+          width: 170px;
+          height: 250px;
       }
 
       .Productbox:last-child {
@@ -537,7 +537,7 @@
       }
 
       .Discount {
-          height: 220px;
+          height: 240px;
           width: 180px;
       }
 
