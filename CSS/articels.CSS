@@ -1,0 +1,282 @@
+header{
+    position: static;
+}
+
+main {
+    padding: 5px;
+}
+
+.articel-text {
+    margin-top: 20px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+footer {
+    border-top: 2px solid black;
+    height: 100%;
+    background-color: #fff;
+}
+
+.commentmain{
+    width: 100%;
+}
+
+.section {
+    display: flex ;
+}
+
+.bottom-commentbox{
+    margin-top: 10px;
+    color: black;
+}
+
+.create-comment {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+}
+
+.Edit-text {
+    color: black;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.Edit-text:hover {
+    background-color: black;
+    color: white;
+}
+
+.comment-text {
+    background-color: #f0f0f0;
+    font-family: BYekan;
+    font-size: 19px;
+    width: 319px;
+    height: 220px;
+    padding: 5px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.Bold {
+    font-weight: bold;
+}
+
+.comment-text :hover {
+    outline: none;
+    border: 2px solid black;
+}
+
+.post-btn {
+    font-family: BYekan;
+    font-size: 20px;
+    width: 180px;
+    height: 50px;
+    background-color: rgb(71, 71, 71);
+    color: #fff;
+}
+
+.post-btn:active {
+    font-size: 19px;
+    border: 1px solid #fff;
+    outline: none;
+}
+
+.callus {
+    display: flex;
+    background: rgb(71, 71, 71);
+    padding: 10px 20px;
+    width: 100%;
+    margin-right: 50px;
+    justify-content: center;
+}
+
+.bottom-commentbox textarea{
+    width: 300px;
+    height: 150px;
+    border: 2px solid black;
+    position: relative;
+    padding: 5px;
+    font-size: 17px;
+    background-color: #f0f0f0;
+    resize: none;
+}
+
+.commentbox {
+    position: relative;
+    padding: 10px;
+    width: 340px;
+    height: 200px;
+    margin-top: 50px;
+    border: 2px solid black;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.name-commenter {
+    font-size: 15px;
+    width: 300px;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width:374px) {
+
+    .comment-text {
+        width: 210px;
+        height: 160px;
+        padding: 5px;
+    }
+
+    .post-btn {
+        font-size: 14px;
+        width: 100px;
+        height: 30px;
+    }
+
+    .post-btn:active {
+        font-size: 16px;
+    }
+
+    .callus{
+        display: none;
+    }
+
+    .commentbox {
+        padding: 10px;
+        width: 240px;
+        height: 170px;
+        margin-top: 20px;
+    }
+
+    
+    .name-commenter {
+        width: 200px;
+    }
+
+    .bottom-commentbox textarea{
+        pointer-events: none;
+        width: 200px;
+        height: 120px;
+        
+    }
+
+
+}
+
+@media screen and (max-width: 730px) {
+
+    .comment-text {
+        width: 210px;
+        height: 160px;
+        padding: 5px;
+    }
+
+    .post-btn {
+        font-size: 14px;
+        width: 100px;
+        height: 30px;
+    }
+
+    .post-btn:active {
+        font-size: 16px;
+    }
+
+    .callus{
+        display: none;
+    }
+
+    .commentbox {
+        padding: 10px;
+        width: 240px;
+        height: 170px;
+        margin-top: 20px;
+    }
+
+    
+    .name-commenter {
+        width: 200px;
+    }
+
+    .bottom-commentbox textarea{
+        pointer-events: none;
+        width: 200px;
+        height: 120px;
+        
+    }
+
+
+}
+
+@media screen and (min-width:731px) and (max-width: 834px) {
+
+    .comment-text {
+        width: 270px;
+        height: 220px;
+        padding: 5px;
+    }
+
+    .post-btn {
+        font-size: 14px;
+        width: 150px;
+        height: 50px;
+    }
+
+    .post-btn:active {
+        font-size: 16px;
+    }
+
+   
+    .commentbox {
+        padding: 10px;
+        width: 270px;
+        height: 190px;
+        margin-top: 20px;
+    }
+
+    
+    .name-commenter {
+        width: 260px;
+    }
+
+    .bottom-commentbox textarea{
+        pointer-events: none;
+        width: 240px;
+        height: 140px;
+        
+    }
+
+
+}
+
+
+@media screen and (min-width:1350px) and (max-width: 1440px){
+    main h2 {
+        font-size: 25px;
+    }
+    main h3 {
+        font-size: 20px;
+    }
+    main p {
+        font-size: 17px;
+    }
+}
