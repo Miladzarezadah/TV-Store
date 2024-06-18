@@ -1,0 +1,138 @@
+header{
+    position: static;
+}
+
+.section {
+    padding: 0 10px;
+    margin-top: 30px;
+}
+
+.section:first-child {
+    margin-top: 20px;
+}
+
+.section:last-child {
+    margin-bottom: 50px;
+}
+
+.title {
+    padding: 5px 0;
+    display: flex;
+    width: 30%;
+    cursor: pointer;
+}
+
+.title i {
+    font-size: 15px;
+    margin-top: 7px;
+    margin-right: 3px;
+}
+
+.ai-chevron-down {
+    display: none;
+}
+
+.ai-chevron-up {
+    display: none;
+}
+
+.box {
+    display: none;
+}
+
+.mainquestionsbox {
+    display: none;
+}
+
+.question {
+    display: none;
+    margin-top: 10px;
+}
+
+.open {
+    display: block;
+}
+
+.questionbox {
+    display: block;
+    margin-top: 15px;
+}
+
+.text {
+    display: flex;
+    margin-top: 10px;
+}
+
+.callbox .text p {
+    direction: ltr;
+    font-size: 15px;
+}
+
+.callbox .text i {
+    font-size: 20px;
+    margin-top: -2px;
+}
+
+.questionbox i {
+    margin-top: 2px;
+}
+
+footer {
+    margin-top: 25%;
+}
+
+@media screen and (max-width:730px) {
+    .section p {
+        font-size: 9.5px;
+    }
+
+    .title {
+        width: 50%;
+    }
+
+    .title i {
+        font-size: 10px;
+        margin-top: 2px;
+    }
+
+    .callbox .text p {
+        font-size: 12px;
+    }
+
+    .callbox .text i {
+        font-size: 15px;
+    }
+
+    .mainquestionsbox i {
+        margin-top: 0;
+    }
+
+    footer {
+        margin-top: 35%;
+    }
+
+}
+
+@media screen and (min-width: 731px) and (max-width: 1023px) {
+    .section p {
+        font-size: 13px;
+    }
+
+    .title i {
+        font-size: 10px;
+        margin-top: 6px;
+    }
+}
+
+@media screen and (min-width:1350px) and (max-width: 1440px) {
+       .section h2 {
+        font-size: 25px;
+    }
+    .section h3 {
+        font-size: 20px;
+    }
+    .section p {
+        font-size: 17px;
+    }
+   
+}
