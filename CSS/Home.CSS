@@ -1437,7 +1437,7 @@
 
 }
 
-@media screen and (min-width:1350px) and (max-width: 1440px) {
+@media screen and (min-width:1250px) and (max-width: 1440px) {
     .PreloaderHome img {
         width: 500px;
         height: 500px;
