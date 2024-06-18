@@ -383,17 +383,8 @@
       .Productbox:last-child {
           display: none;
       }
-
-      .GotopTv {
-        width: 20px !important;
-        height: 20px !important;
-        bottom: 20px !important;
-        right: 20px !important;
-    }
     
-    .ai-chevron-up {
-        font-size: 12px !important;
-    }
+    
   }
 
   @media screen and (max-width:730px) {
@@ -506,9 +497,19 @@
           top: 90px;
           right: 2px;
       }
+      
+      .GotopTv {
+        width: 20px;
+        height: 20px;
+        bottom: 20px;
+        right: 20px;
+    }
+    .ai-chevron-up {
+        font-size: 12px ;
+    }
   }
 
-  @media screen and (min-width:731px) and (max-width:900px) {
+  @media screen and (min-width:731px) and (max-width:1023px) {
       .Productbox {
           margin-right: 10px;
           width: 220px;
