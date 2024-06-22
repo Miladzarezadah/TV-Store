@@ -244,14 +244,26 @@
     margin-right: 5px;
 }
 
-.image-Tvbox {
+.img {
     border: 1px solid black;
     box-shadow: 0 0 2px 0.5px;
+    width: 190px;
+    height: 150px;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
 
-.image-Tvbox img {
-    width: 170px;
-    height: 150px;
+.image-Tv1 {
+    background-image: url(./Image/TV/TV.jfif);
+}
+
+.image-Tv2 {
+    background-image: url(./Image/TV/TV.jfif);
+}
+
+.image-Tv3 {
+    background-image: url(./Image/TV/TV.jfif);
 }
 
 .title-Tvbox {
@@ -283,9 +295,18 @@
     margin-right: 5px;
 }
 
-.image-accessorybox {
-    border: 1px solid black;
-    box-shadow: 0 0 2px 0.5px;
+.image-accessory1 {
+    background-image: url(./Image/Accesory/Power\ protection.jpg);
+}
+
+.image-accessory2 {
+    background-image: url(./Image/Accesory/screen\ saver.jpg);
+    background-size: 80%;
+
+}
+
+.image-accessory3 {
+    background-image: url(./Image/Accesory/HDMI\ Cable.jpg);
 }
 
 .image-accessorybox img {
@@ -368,18 +389,34 @@
 }
 
 .image-D {
-    width: 170px;
+    width: 200px;
     height: 170px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
     box-shadow: 0 0 2px 0.5px black;
-    padding: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
-.image-D img {
-    width: 150px;
+.image-Discount1 {
+    background-image: url(./Image/TV/TV.jfif);
+}
+
+.image-Discount2 {
+    background-image: url(./Image/Speaker/speaker.jpg);
+
+}
+
+.image-Discount3 {
+    background-image: url(./Image/Accesory/Usb2.JPEG);
+
+}
+
+.image-Discount4 {
+    background-image: url(./Image/TV/TV.jfif);
 }
 
 .DiscountAc img {
@@ -407,6 +444,38 @@
     justify-content: center;
     padding: 15px;
     margin-top: 20px;
+}
+
+.image-accessory4 {
+    background-image: url(./Image/Accesory/Usb2.JPEG);
+}
+
+.image-accessory5 {
+    background-image: url(./Image/Accesory/VGA.jfif);
+}
+
+.image-accessory6 {
+    background-image: url(Image/Accesory/optical\ Cable.jpg);
+}
+
+.image-accessory7 {
+    background-image: url(Image/Accesory/Dancing\ Light.jpg);
+}
+
+.image-accessory8 {
+    background-image: url(Image/Accesory/USB1.JPEG);
+}
+
+.image-accessory9 {
+    background-image: url(Image/Accesory/AUX\ Pairwise.jpg);
+}
+
+.image-accessory10 {
+    background-image: url(Image/Accesory/Androidbox.JPEG);
+}
+
+.image-accessory11 {
+    background-image: url(Image/Accesory/rotating\ base.jpg);
 }
 
 .sectionmiddel-accesorybox {
@@ -475,11 +544,30 @@
     margin-right: 0px;
 }
 
-.image-Gruop img {
+.img-G {
     width: 350px;
     height: 280px;
     border: 1px solid black;
     box-shadow: 0 0 2px 0.5px;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.image-Gruop1 {
+    background-image: url(./Image/TV/TV-group.jpeg);
+}
+
+.image-Gruop2 {
+    background-image: url(./Image/Stand/TV\ stand.jpg);
+}
+
+.image-Gruop3 {
+    background-image: url(./Image/Accesory/USB1.JPEG);
+}
+
+.image-Gruop4 {
+    background-image: url(./Image/Speaker/speaker.jpg);
 }
 
 .title-Group {
@@ -495,7 +583,7 @@
 
 .Group-sectionbottom {
     width: 400px;
-    height: 420px;
+    height: 355px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 5px 0.5px rgb(212, 212, 212);
@@ -507,12 +595,6 @@
 
 .Group-sectionbottom a:first-child {
     margin-right: 0px;
-}
-
-.image-Gruop-bottom img {
-    width: 350px;
-    border: 1px solid black;
-    box-shadow: 0 0 2px 0.5px;
 }
 
 /*/////////////Section Bottom///////////////*/
@@ -563,26 +645,40 @@
     padding-left: 10px;
 }
 
-.image-speaker {
-    width: 150px;
+.img-S {
+    width: 172px;
     height: 150px;
-    padding: 0px 10px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-.image-speakerT {
-    width: 150px;
-    height: 150px;
-    padding: 0px 10px;
+.image-speaker1 {
+    background-image: url(./Image/Speaker/JBL-logo.png);
 }
 
-.image-speaker img {
-    width: 150px;
-    height: 110px;
-    margin-top: 20px;
+.image-speaker2 {
+    background-image: url(./Image/Speaker/Samsung-logo.png);
 }
 
-.image-speakerT img {
-    width: 150px;
+.image-speaker3 {
+    background-image: url(./Image/Speaker/Sony-logo.png);
+}
+
+.image-speaker4 {
+    background-image: url(./Image/Speaker/Xiaomi-logo.png);
+}
+
+.image-speaker5 {
+    background-image: url(./Image/Speaker/Tsco-logo.png);
+}
+
+.image-speaker6 {
+    background-image: url(./Image/Speaker/Sonos-logo.png);
+}
+
+.image-speaker7 {
+    background-image: url(./Image/Speaker/Anker-logo.png);
 }
 
 .buttonleft-speakerHome {
@@ -646,28 +742,40 @@
     transition: all 1s;
 }
 
-.image-TV {
-    width: 150px;
-    height: 150px;
+.image-Tv4 {
+    background-image: url(./Image/TV/LG-logo.png);
 }
 
-.image-TVX {
-    width: 150px;
-    height: 150px;
+.image-Tv5 {
+    background-image: url(./Image/TV/Samsung-logo.png);
 }
 
-.image-TV img {
-    width: 160px;
-    height: 110px;
-    margin-top: 20px;
-    padding-right: 2px;
+.image-Tv6 {
+    background-image: url(./Image/TV/XVision-logo.png);
 }
 
+.image-Tv7 {
+    background-image: url(./Image/TV/TCL-logo.png);
+}
 
-.image-TVX img {
-    width: 160px;
-    height: 80px;
-    margin-top: 30px;
+.image-Tv8 {
+    background-image: url(./Image/TV/Sony-logo.png);
+}
+
+.image-Tv9 {
+    background-image: url(./Image/TV/Xiaomi-logo.png);
+}
+
+.image-Tv10 {
+    background-image: url(./Image/TV/Hisense-logo.png);
+}
+
+.image-Tv11 {
+    background-image: url(./Image/TV/Himalia-logo.png);
+}
+
+.image-Tv12 {
+    background-image: url(./Image/TV/National-Logo.wine.png);
 }
 
 /*/////////////GotopHome///////////////*/
@@ -798,7 +906,7 @@
         padding: 5px;
     }
 
-    .image-Tvbox img {
+    .img {
         width: 90px;
         height: 80px;
     }
@@ -955,7 +1063,7 @@
         margin-right: 25px
     }
 
-    .image-Gruop img {
+    .img-G {
         width: 130px;
         height: 110px;
     }
@@ -970,10 +1078,6 @@
         margin-right: 25px;
     }
 
-    .image-Gruop-bottom img {
-        width: 130px;
-        height: 110px;
-    }
 
     .title-Group {
         font-size: 10px;
@@ -981,7 +1085,7 @@
     }
 
     .bottom-Home {
-        margin-top: 50p;
+        margin-top: 50px;
     }
 
     .title-sectionbottom {
@@ -1004,30 +1108,6 @@
     .brandname-speaker {
         margin-top: 10px;
         width: fit-content;
-    }
-
-    .image-speaker {
-        width: 80px;
-        height: 80px;
-        padding: 0px;
-    }
-
-    .image-speakerT {
-        width: 80px;
-        height: 80px;
-        padding: 0px;
-    }
-
-    .image-speaker img {
-        width: 80px;
-        height: 80px;
-        margin-top: 0px;
-    }
-
-    .image-speakerT img {
-        width: 80px;
-        height: 80px;
-        margin-top: 0px;
     }
 
     .buttonleft-speakerHome {
@@ -1054,28 +1134,10 @@
         width: fit-content;
     }
 
-    .image-TV {
+    .img-S {
         width: 80px;
         height: 80px;
         padding: 0px;
-    }
-
-    .image-TVX {
-        width: 80px;
-        height: 80px;
-        padding: 0px;
-    }
-
-    .image-TV img {
-        width: 80px;
-        height: 80px;
-        margin-top: 0px;
-    }
-
-    .image-TVX img {
-        width: 80px;
-        height: 45px;
-        margin-top: 15px;
     }
 
     .buttonleft-TvHome {
@@ -1142,8 +1204,8 @@
         padding: 5px;
     }
 
-    .image-Tvbox img {
-        width: 120px;
+    .img {
+        width: 132px;
         height: 110px;
     }
 
@@ -1207,7 +1269,7 @@
         margin-right: 20px;
     }
 
-    
+
 
     .image-D {
         width: 120px;
@@ -1295,7 +1357,7 @@
         margin-right: 25px;
     }
 
-    .image-Gruop img {
+    .img-G {
         width: 250px;
         height: 220px;
     }
@@ -1311,10 +1373,6 @@
         margin-right: 25px;
     }
 
-    .image-Gruop-bottom img {
-        width: 250px;
-        height: 220px;
-    }
 
     .title-Group {
         font-size: 15px;
@@ -1348,29 +1406,6 @@
         width: fit-content;
     }
 
-    .image-speaker {
-        width: 120px;
-        height: 120px;
-        padding: 0px;
-    }
-
-    .image-speakerT {
-        width: 120px;
-        height: 120px;
-        padding: 0px;
-    }
-
-    .image-speaker img {
-        width: 120px;
-        height: 120px;
-        margin-top: 0px;
-    }
-
-    .image-speakerT img {
-        width: 120px;
-        height: 120px;
-        margin-top: 0px;
-    }
 
     .buttonleft-speakerHome {
         display: none;
@@ -1396,28 +1431,10 @@
         width: fit-content;
     }
 
-    .image-TV {
+    .img-S {
         width: 120px;
         height: 120px;
         padding: 0px;
-    }
-
-    .image-TVX {
-        width: 120px;
-        height: 120px;
-        padding: 0px;
-    }
-
-    .image-TV img {
-        width: 120px;
-        height: 120px;
-        margin-top: 0px;
-    }
-
-    .image-TVX img {
-        width: 120px;
-        height: 65px;
-        margin-top: 25px;
     }
 
     .buttonleft-TvHome {
@@ -1448,7 +1465,8 @@
         height: 300px;
     }
 
-    .image-Tvbox img {
+    .img {
+
         width: 220px;
         height: 170px;
     }
@@ -1492,28 +1510,6 @@
         height: 50px;
     }
 
-    .image-speaker {
-        width: 230px;
-        height: 230px;
-        padding: 0px 5px;
-    }
-
-    .image-speakerT {
-        width: 230px;
-        height: 230px;
-        padding: 0px 5px;
-    }
-
-    .image-speaker img {
-        width: 210px;
-        height: 160px;
-        margin-top: 30px;
-    }
-
-    .image-speakerT img {
-        width: 210px;
-        margin-top: 10px;
-    }
 
     .buttonleft-speakerHome {
         width: 50px;
@@ -1529,27 +1525,10 @@
         width: 220px;
     }
 
-    .image-TV {
+    .img-S {
         width: 210px;
         height: 210px;
         padding: 0px 5px;
-    }
-
-    .image-TVX {
-        width: 210px;
-        height: 210px;
-        padding: 0px 5px;
-    }
-
-    .image-TV img {
-        width: 190px;
-        height: 140px;
-        margin-top: 30px;
-    }
-
-    .image-TVX img {
-        width: 190px;
-        margin-top: 60px;
     }
 
     .buttonleft-TvHome {
