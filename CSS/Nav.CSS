@@ -10,6 +10,81 @@ body {
 
 }
 
+@keyframes drop-S {
+    0% {
+        top: 0;
+    }
+
+    75% {
+        top: 90px;
+
+    }
+
+    80% {
+        top: 80px;
+    }
+
+    100% {
+        top: 70px;
+    }
+}
+
+@keyframes drop-L {
+    0% {
+        top: 0;
+    }
+
+    75% {
+        top: 120px;
+
+    }
+
+    80% {
+        top: 110px
+    }
+
+    100% {
+        top: 100px;
+    }
+}
+@keyframes drop-S30 {
+    0% {
+        top: 0;
+    }
+
+    75% {
+        top: 28%;
+
+    }
+
+    80% {
+        top: 27%;
+    }
+
+    100% {
+        top: 25%;
+    }
+}
+
+@keyframes drop-L730 {
+    0% {
+        top: 0;
+    }
+
+    75% {
+        top: 33%;
+
+    }
+
+    80% {
+        top: 32%
+    }
+
+    100% {
+        top: 30%;
+    }
+}
+
 
 
 /*/////////////Default///////////////*/
@@ -805,6 +880,7 @@ footer {
     }
 
     .Login form {
+        animation: drop-L730 0.5s;
         top: 30%;
         width: 300px;
         height: 280px;
@@ -878,7 +954,8 @@ footer {
     }
 
     .signup form {
-        top: 15px;
+        animation: drop-S730 0.5s;
+        top: 25%;
         width: 300px;
         height: 360px;
     }

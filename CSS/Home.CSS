@@ -6,43 +6,7 @@
 }
 
 
-@keyframes drop-S {
-    0% {
-        top: 0;
-    }
 
-    75% {
-        top: 90px;
-
-    }
-
-    80% {
-        top: 80px;
-    }
-
-    100% {
-        top: 70px;
-    }
-}
-
-@keyframes drop-L {
-    0% {
-        top: 0;
-    }
-
-    75% {
-        top: 120px;
-
-    }
-
-    80% {
-        top: 110px
-    }
-
-    100% {
-        top: 100px;
-    }
-}
 
 @keyframes dropid {
     0% {
