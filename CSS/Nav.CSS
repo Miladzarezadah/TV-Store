@@ -997,6 +997,8 @@ footer {
 
     .errorpass-signup {
         font-size: 15px;
+        right: 4px;
+        width: 160px;
     }
 
     .signup-Password svg {
