@@ -1,0 +1,690 @@
+  /* ------------------------------Extensions------------------------------ */
+  @keyframes fadeOut {
+      100% {
+          opacity: 0;
+          visibility: hidden;
+      }
+  }
+
+  @keyframes left {
+      0% {
+          left: 0;
+      }
+
+      50% {
+          left: -1000px;
+      }
+
+      75% {
+          left: 100px;
+      }
+
+      100% {
+          left: 0px;
+      }
+
+  }
+
+  @keyframes right {
+      0% {
+          right: 0;
+      }
+
+      50% {
+          right: -1000px;
+      }
+
+      75% {
+          right: 100px;
+      }
+
+      100% {
+          right: 0px;
+      }
+
+  }
+
+
+  @keyframes dropbtn {
+      0% {
+          bottom: 100px;
+          opacity: 0;
+      }
+  }
+
+
+  @keyframes sticky {
+      0% {
+          top: -100px;
+      }
+
+  }
+
+
+  /* ------------------------------Top------------------------------ */
+  .PreloaderTV {
+      background-color: #fff;
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+  }
+
+  .PreloaderTV img {
+      margin-top: -50px;
+      width: 400px;
+      height: 400px;
+  }
+
+  .PreloaderTV.hidden {
+      animation: fadeOut 1s;
+      animation-fill-mode: forwards;
+  }
+
+  /* ------------------------------Top------------------------------ */
+
+  .section {
+      flex-direction: column;
+      margin-top: 20px;
+  }
+
+  .title-top {
+      margin-right: 10px;
+  }
+
+
+  .TVbox {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+  }
+
+  .Productbox {
+      margin-right: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      width: 210px;
+      height: 250px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 2px 2px 5px 0.5px black;
+      padding: 0 10px;
+  }
+
+  .Productbox:hover {
+      transition: all 0.2s;
+      border: 1px solid black;
+      box-shadow: 0 0 5px 0.5px black;
+  }
+
+
+  .image {
+      box-shadow: 1px 1px 5px 0.5px black;
+      margin-top: 10px;
+      width: 165px;
+      height: 120px;
+      border: 1px solid black;
+      border-radius: 10px;
+      background-size: cover;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+  }
+
+  .image-Bestseller1 {
+      background-image: url(./Image/TV/TV.jfif);
+  }
+
+  .image-Bestseller2 {
+      background-image: url(./Image/TV/TV.jfif);
+  }
+
+  .image-Bestseller3 {
+      background-image: url(./Image/TV/TV.jfif);
+  }
+
+  .image-Bestseller4 {
+      background-image: url(./Image/TV/TV.jfif);
+  }
+
+  .image-Bestseller5 {
+      background-image: url(./Image/TV/TV.jfif);
+  }
+
+  .image-Bestseller6 {
+      background-image: url(./Image/TV/TV.jfif);
+  }
+
+  .image-Bestseller7 {
+      background-image: url(./Image/TV/TV.jfif);
+  }
+
+  .image-Bestseller8 {
+      background-image: url(./Image/TV/TV.jfif);
+  }
+
+  .image-Bestseller9 {
+      background-image: url(./Image/TV/TV.jfif);
+  }
+
+  .image-Bestseller10 {
+      background-image: url(./Image/TV/TV.jfif);
+  }
+
+  .text {
+      position: absolute;
+      width: 150px;
+      top: 135px;
+      margin-bottom: 10px;
+  }
+
+
+  /* ------------------------------Middle------------------------------ */
+  .middle-TV {
+      margin-top: 70px;
+  }
+
+  .AdvertisingTV {
+      margin-top: 100px;
+  }
+
+  .Slide {
+      position: relative;
+      box-shadow: 0 0 10px 0.5px rgb(0, 135, 212);
+      display: flex;
+      overflow: hidden;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 150px;
+  }
+
+  .buttonright-TV {
+      position: absolute;
+      right: 0;
+      background: linear-gradient(to right, #3497da, #6dd5fa, #ffffff);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      z-index: 1;
+  }
+
+  .btnactive {
+      background: gray !important;
+  }
+
+  .buttonleft-TV {
+      position: absolute;
+      left: 0;
+      background: linear-gradient(to left, #3497da, #6dd5fa, #ffffff);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+  }
+
+  .Advertise {
+      position: relative;
+      display: none;
+      font-size: 30px;
+      height: 100px;
+      animation: none;
+  }
+
+  .Advertise.active {
+      display: flex;
+  }
+
+  .Advertise.animationleft {
+      animation: left 1s;
+  }
+
+  .Advertise.animationright {
+      animation: right 1s;
+  }
+
+  .Advertise p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .image-Newtop1 {
+      background-image: url(./Image/TV/TV.jfif);
+  }
+
+  .image-Newtop2 {
+      background-image: url(./Image/TV/TV.jfif);
+  }
+
+  .image-Newtop3 {
+      background-image: url(./Image/TV/TV.jfif);
+  }
+
+  .image-Newtop4 {
+      background-image: url(./Image/TV/TV.jfif);
+  }
+
+  .image-Newtop5 {
+      background-image: url(./Image/TV/TV.jfif);
+  }
+
+  /* ------------------------------Discounts------------------------------ */
+  .Discounts-Tv {
+      display: flex;
+      flex-direction: column;
+      background: linear-gradient(to right, #b2fefa, #0ed2f7);
+      padding: 10px;
+      position: relative;
+      justify-content: center;
+  }
+
+  .Discountbox-TV {
+      display: flex;
+      margin-top: 10px;
+      justify-content: center;
+  }
+
+  .DiscountTv {
+      box-shadow: 2px 2px 5px 0.5px black;
+  }
+
+  .DiscountTv:first-child {
+      margin-right: 5px;
+  }
+
+  .DiscountTv:hover {
+      box-shadow: 0 0 1px 0.5px black;
+      border: none;
+      transition: all 0.5s;
+  }
+
+  .DiscountTv:hover .image {
+      box-shadow: 0 0 10px 0.5px black;
+      border: none;
+  }
+
+  .Discount .image {
+      width: 220px;
+      height: 165px;
+      margin-top: 0;
+  }
+
+  .image-Discount1 {
+      background-image: url(./Image/TV/TV.jfif);
+  }
+
+  .image-Discount2 {
+      background-image: url(./Image/TV/TV.jfif);
+  }
+
+  .image-Discount3 {
+      background-image: url(./Image/TV/TV.jfif);
+  }
+
+  .image-Discount4 {
+      background-image: url(./Image/TV/TV.jfif);
+  }
+
+
+  .Discount .text {
+      top: 190px;
+      right: 10px;
+  }
+
+  /* ------------------------------bottom------------------------------ */
+  .bottom-Tv {
+      background: linear-gradient(to right, #5433ff, #20bdff, #a5fecb);
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      position: relative;
+      justify-content: center;
+      margin-top: 100px;
+
+  }
+
+  .Proposedbox-TV {
+      display: flex;
+      justify-content: center;
+  }
+
+  .Proposed {
+      margin-top: 10px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 240px;
+      padding: 20px;
+      height: 280px;
+      border: 1px solid black;
+      margin-right: 10px;
+      background-color: #fff;
+      border-radius: 10px;
+  }
+
+  .Proposed:first-child {
+      margin-right: 5px;
+  }
+
+  .Proposed .image {
+      width: 200px;
+      height: 160px;
+      margin-top: 0;
+  }
+
+  .image-Proposed1 {
+      background-image: url(./Image/TV/TV.jfif);
+  }
+
+  .image-Proposed2 {
+      background-image: url(./Image/TV/TV.jfif);
+  }
+
+  .image-Proposed3 {
+      background-image: url(./Image/TV/TV.jfif);
+  }
+
+  .image-Proposed4 {
+      background-image: url(./Image/TV/TV.jfif);
+  }
+
+  .Proposed .text {
+      width: 200px;
+      top: 190px;
+      right: 10px;
+  }
+
+  /*/////////////GotopHome///////////////*/
+  .GotopTv {
+      position: fixed;
+      display: none;
+      background: linear-gradient(to right, rgb(52, 151, 218), rgb(109, 213, 250), rgb(109, 213, 250), rgba(52, 151, 218));
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      justify-content: center;
+      align-items: center;
+      bottom: 20px;
+      right: 40px;
+      z-index: 1;
+      animation: 1s dropbtn;
+  }
+
+  .ai-chevron-up {
+      font-size: 20px;
+  }
+
+
+
+  /* ----------------------------Media---------------------------- */
+  @media screen and (max-width:360px) {
+
+
+      .Discountbox-TV a:nth-child(2) {
+          display: none;
+      }
+
+      .Proposedbox-TV a:nth-child(2) {
+          display: none;
+      }
+
+      .Productbox:first-child {
+          margin-right: 10px;
+      }
+
+      .Productbox {
+          margin: 0 15px;
+          width: 140px;
+          height: 170px;
+          padding: 0 5px;
+      }
+
+      .Productbox:nth-last-child(2),
+      .Productbox:nth-last-child(3),
+      .Productbox:last-child {
+          display: none;
+      }
+
+
+  }
+
+  @media screen and (max-width:730px) {
+
+      .PreloaderTV img {
+          margin-top: -50px;
+          width: 300px;
+          height: 300px;
+      }
+
+      .TVbox {
+          padding: 10px 0;
+      }
+
+      .Productbox {
+          margin-right: 10px;
+          width: 110px;
+          height: 160px;
+          padding: 0 5px;
+      }
+
+      .Productbox:nth-last-child(2),
+      .Productbox:last-child {
+          display: none;
+      }
+
+      .image {
+          margin-top: 5px;
+          width: 100px;
+          height: 80px;
+      }
+
+      .text {
+          width: 105px;
+          top: 90px;
+          margin-bottom: 10px;
+          right: 3px;
+      }
+
+      .Slide {
+          margin-bottom: 70px;
+      }
+
+      .AdvertisingTV {
+          margin-top: 50px;
+      }
+
+      .buttonright-TV {
+          width: 20px;
+          height: 20px;
+          font-size: 10px;
+      }
+
+      .Advertise {
+          font-size: 20px;
+          height: 50px;
+      }
+
+      .buttonleft-TV {
+          width: 20px;
+          height: 20px;
+          font-size: 10px;
+      }
+
+      .Discount {
+          height: 170px;
+      }
+
+      .Discountbox-TV a:last-child {
+          display: none;
+      }
+
+      .Discount .image {
+          width: 100px;
+          height: 80px;
+          margin-top: 0;
+      }
+
+      .Discount .image img {
+          width: 100px;
+      }
+
+      .Discount .text {
+          top: 90px;
+      }
+
+      .Proposedbox-TV a:last-child {
+          display: none;
+      }
+
+      .Proposed {
+          width: 110px;
+          padding: 10px;
+          height: 170px;
+          margin-right: 10px;
+      }
+
+      .Proposed .image {
+          width: 100px;
+          height: 77px;
+      }
+
+      .Proposed .text {
+          width: 105px;
+          top: 90px;
+          right: 2px;
+      }
+
+      .GotopTv {
+          width: 20px;
+          height: 20px;
+          bottom: 20px;
+          right: 20px;
+      }
+
+      .ai-chevron-up {
+          font-size: 12px;
+      }
+  }
+
+  @media screen and (min-width:731px) and (max-width:1023px) {
+      .Productbox {
+          margin-right: 10px;
+          width: 170px;
+          height: 250px;
+      }
+
+      .Productbox:last-child {
+          display: none;
+      }
+
+      .buttonright-TV {
+          width: 30px;
+          height: 30px;
+          font-size: 18px;
+      }
+
+      .Advertise {
+          height: 80px;
+      }
+
+      .buttonleft-TV {
+          width: 30px;
+          height: 30px;
+          font-size: 18px;
+      }
+
+      .Discount {
+          height: 240px;
+          width: 180px;
+      }
+
+      .Discount .image {
+          width: 155px;
+          height: 120px;
+      }
+
+      .Discount .text {
+          top: 130px;
+      }
+
+      .Proposed {
+          width: 180px;
+          padding: 10px;
+          height: 220px;
+      }
+
+      .Proposed .image {
+          width: 160px;
+          height: 125px;
+      }
+      
+
+      .Proposed .text {
+          width: 170px;
+          top: 140px;
+          right: 10px;
+      }
+  }
+
+  @media screen and (min-width:1225px) and (max-width:1440px) {
+
+      .Productbox {
+          width: 230px;
+          height: 290px;
+          padding: 0 10pX
+      }
+
+      .image {
+          width: 210px;
+          height: 165px;
+      }
+      .text {
+          width: 220px;
+          top: 180px;
+      }
+
+      .Advertise {
+          font-size: 35px;
+          height: 120px;
+          animation: none;
+      }
+
+      .Discount {
+          height: 300px;
+          margin-bottom: 50px;
+          margin-right: 20px !important;
+      }
+
+      .Discount .text {
+          top: 190px;
+          right: 10px;
+      }
+
+      .Proposed {
+          height: 300px;
+          margin-bottom: 50px;
+          margin-right: 20px !important;
+      }
+
+      .Proposed .text {
+          top: 190px;
+          right: 10px;
+      }
+
+  }
